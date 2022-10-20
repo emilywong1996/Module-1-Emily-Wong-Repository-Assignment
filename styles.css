@@ -1,3 +1,25 @@
-p{
-    font-weight:bold;
+.container-fluid{
+    display: flex;
+    justify-content: space-around;
+}
+.object-one, .object-two, .object-three{
+    width: 100px;
+    height: 100px;
+    padding: 40px;
+    text-align: center;
+}
+.object-one{
+    flex-direction: row;
+    background-color: red;
+    order: 1;
+}
+.object-two{
+    flex-direction: row;
+    background-color: yellow;
+    order: 3;
+}
+.object-three{
+    flex-direction: row;
+    background-color: blue;
+    order: 2;
 }
